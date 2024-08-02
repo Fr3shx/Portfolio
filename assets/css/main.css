@@ -37,6 +37,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
 
+h1 {
+    font-size: 2.5em;
+    color: #fff;
+}
+
 a {
     color: #007BFF;
     text-decoration: none;
@@ -147,7 +152,7 @@ ul.icons a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #222629;
+    background: #000;
     color: #fff;
     height: 100%;
     left: 0;
@@ -158,6 +163,21 @@ ul.icons a {
     width: 250px;
 }
 
+#header .top {
+    -moz-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+}
+
+#header .bottom {
+    -moz-flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-shrink: 0;
+    flex-shrink: 0;
+    padding: 1.5em 0 0.75em 0;
+}
+
 #logo {
     margin: 1.75em 1.5em 1.5em 1.5em;
     cursor: default;
@@ -165,7 +185,7 @@ ul.icons a {
 
 #logo h1 {
     font-weight: 600;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 #logo p {
