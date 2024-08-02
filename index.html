@@ -8,80 +8,42 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:300,400,600,700&display=swap">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-    <style>
-        #logo h1 {
-            font-size: 2.5em;
-            margin: 0.5em 0;
-            color: white;
-            text-align: center;
-        }
-
-        #nav ul {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-        }
-
-        #nav ul li {
-            display: inline-block;
-            margin: 0 0.5em;
-        }
-
-        .icons {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .icons a {
-            color: white;
-            font-size: 1.5em;
-            text-decoration: none;
-        }
-
-        .icons a:hover {
-            color: #FF6347;
-        }
-    </style>
 </head>
 
 <body class="is-preload">
 
     <!-- Header -->
-    <div id="header">
-        <div class="top">
+    <div id="header" style="position: fixed; top: 0; left: 0; width: 20%; height: 100vh; background-color: #333;">
+        <div class="top" style="padding: 20px;">
             <!-- Logo -->
             <div id="logo">
-                <h1 id="title">Robby Khoutsaysana</h1>
-                <p>Data Professional</p>
+                <h1 id="title" style="font-size: 1.5em; margin: 0; color: #fff;">Robby Khoutsaysana</h1>
+                <p style="color: #ccc;">Data Professional</p>
             </div>
 
             <!-- Nav -->
             <nav id="nav">
                 <ul>
-                    <li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-                    <li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a>
-                    </li>
-                    <li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-                    <li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a>
-                    </li>
+                    <li><a href="#top" id="top-link"><span class="icon solid fa-home"></span> Intro</a></li>
+                    <li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th"></span> Portfolio</a></li>
+                    <li><a href="#about" id="about-link"><span class="icon solid fa-user"></span> About Me</a></li>
+                    <li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope"></span> Contact</a></li>
                 </ul>
             </nav>
         </div>
 
-        <div class="bottom">
+        <div class="bottom" style="padding: 20px;">
             <!-- Social Icons -->
-            <ul class="icons">
-                <li><a href="https://www.linkedin.com/in/robby-khoutsaysana" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                <li><a href="https://github.com/Fr3shx" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-                <li><a href="mailto:robbykh87@hotmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+            <ul class="icons" style="display: flex; flex-direction: column; gap: 15px;">
+                <li><a href="https://www.linkedin.com/in/robby-khoutsaysana" class="icon brands fa-linkedin" style="font-size: 2em; color: #fff;"></a></li>
+                <li><a href="https://github.com/Fr3shx" class="icon brands fa-github" style="font-size: 2em; color: #fff;"></a></li>
+                <li><a href="mailto:robbykh87@hotmail.com" class="icon solid fa-envelope" style="font-size: 2em; color: #fff;"></a></li>
             </ul>
         </div>
     </div>
 
     <!-- Main -->
-    <div id="main">
+    <div id="main" style="margin-left: 20%; padding: 2em;">
 
         <!-- Intro -->
         <section id="top" class="one dark cover" style="background-image: url('csv_project.jpeg');" data-aos="fade-in">
@@ -195,7 +157,7 @@
                 <p>If you have any questions, comments, or just want to connect, feel free to reach out. I'm always open
                     to discussing new opportunities or collaborations.</p>
                 <!-- Social Icons -->
-                <ul class="icons" style="gap: 20px;">
+                <ul class="icons" style="display: flex; gap: 20px;">
                     <li><a href="https://www.linkedin.com/in/robby-khoutsaysana" class="icon brands fa-linkedin fa-3x"><span class="label">LinkedIn</span></a></li>
                     <li><a href="https://github.com/Fr3shx" class="icon brands fa-github fa-3x"><span class="label">GitHub</span></a></li>
                     <li><a href="mailto:robbykh87@hotmail.com" class="icon solid fa-envelope fa-3x"><span class="label">Email</span></a></li>
