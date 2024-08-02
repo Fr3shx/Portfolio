@@ -5,37 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Merriweather:wght@400;700&display=swap">
-    <style>
-        .welcome-message {
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 700;
-            color: #ffffff;
-        }
-
-        p, h3 {
-            font-family: 'Merriweather', serif;
-        }
-
-        p {
-            color: #333;
-            line-height: 1.6;
-        }
-
-        .button {
-            background-color: #007BFF;
-            color: white;
-            padding: 10px 20px;
-            text-align: center;
-            border-radius: 5px;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        .button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:300,400,600&family=Merriweather:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
 <body class="is-preload">
 
@@ -44,9 +15,9 @@
         <div class="top">
             <!-- Logo -->
             <div id="logo">
-                <span class=""><img src="" alt="" /></span>
+                <span class="image"><img src="" alt="" /></span>
                 <h1 id="title">Robby Khoutsaysana</h1>
-                <p style="font-family: Arial">Data Professional</p>
+                <p>Data Professional</p>
             </div>
 
             <!-- Nav -->
@@ -74,10 +45,10 @@
     <div id="main">
 
         <!-- Intro -->
-        <section id="top" class="one dark cover">
+        <section id="top" class="one dark cover" data-aos="fade-in">
             <div class="container">
                 <header>
-                    <h2 class="alt welcome-message">Welcome to my Portfolio!</h2>
+                    <h2 class="alt">Welcome to my Portfolio!</h2>
                     <p>Your go-to resource for my latest projects and professional journey.</p>
                 </header>
                 <footer>
@@ -87,7 +58,7 @@
         </section>
 
         <!-- Portfolio -->
-        <section id="portfolio" class="two">
+        <section id="portfolio" class="two" data-aos="fade-up">
             <div class="container">
                 <header>
                     <h2>Portfolio</h2>
@@ -135,7 +106,6 @@
                         </article>
                         <p>Conducted sentiment analysis on hotel reviews using Natural Language Processing (NLP) techniques in Python. The project aimed to uncover trends and common sentiments expressed by customers.</p>
                     </div>
-                    <!-- New Project: CSV Product Name Standardizer -->
                     <div class="col-4 col-12-mobile">
                         <article class="item">
                             <a href="https://github.com/Fr3shx/Name_processing_audit_app-Flask-" class="image fit"><img src="images/csv_project.jpg" alt="CSV Product Name Standardizer" /></a>
@@ -151,7 +121,7 @@
         </section>
 
         <!-- About Me -->
-        <section id="about" class="three">
+        <section id="about" class="three" data-aos="fade-up">
             <div class="container">
                 <header>
                     <h2>About Me</h2>
@@ -163,7 +133,7 @@
         </section>
 
         <!-- Contact -->
-        <section id="contact" class="four">
+        <section id="contact" class="four" data-aos="fade-up">
             <div class="container">
                 <header>
                     <h2>Contact</h2>
@@ -188,7 +158,10 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 </html>
-
