@@ -1,0 +1,276 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robby Khoutsaysana | Data Professional Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Robby Khoutsaysana's Portfolio - Data Professional with expertise in analytics, machine learning, and data visualization.">
+    <meta name="keywords" content="Data Analysis, Machine Learning, Data Visualization, Portfolio, Robby Khoutsaysana">
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Merriweather:wght@400;700&display=swap">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Merriweather', serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        header p {
+            margin: 5px 0 0;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff; /* Changed color to white for better visibility */
+            font-weight: bold;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        nav ul li a:hover {
+            color: #cccccc; /* Optional: Slightly darker color on hover for a subtle effect */
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .intro, .portfolio, .about, .contact {
+            padding: 40px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .intro h2, .portfolio h2, .about h2, .contact h2 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        /* Portfolio Section */
+        .portfolio .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .portfolio .project {
+            flex: 1 1 calc(33.333% - 20px); /* Adjusts width of each project tile */
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            overflow: hidden; /* Prevents image overflow */
+        }
+
+        .portfolio .project img {
+            width: 100%;
+            height: auto; /* Maintains aspect ratio */
+            max-height: 200px; /* Fixed maximum height for images */
+            object-fit: contain; /* Ensures the entire image is visible within the tile */
+            border-radius: 5px;
+        }
+
+        .portfolio .project h3 {
+            margin-top: 15px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .portfolio .project p {
+            margin: 10px 0;
+        }
+
+        .portfolio .project a {
+            text-decoration: none;
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        .portfolio .project:hover {
+            transform: translateY(-5px); /* Adds a hover effect */
+        }
+
+        /* About Me Section */
+        .about img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .about p {
+            margin-top: 20px;
+        }
+
+        /* Contact Section */
+        .contact .icons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .contact .icons a {
+            font-size: 2em;
+            color: #333;
+            text-decoration: none;
+        }
+
+        /* Footer Section */
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: #fff;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .portfolio .project {
+                flex: 1 1 100%; /* Makes project tiles full-width on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Robby Khoutsaysana</h1>
+        <p>Data Professional</p>
+        <nav>
+            <ul>
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro container">
+        <h2>Welcome to My Portfolio</h2>
+        <p>I'm Robby, a passionate Data Professional with a deep love for analytics, problem-solving, and continuous learning. Explore my work and experience below.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio container">
+        <h2>Portfolio</h2>
+        <div class="projects">
+            <div class="project">
+                <a href="https://www.kaggle.com/code/fr3shk/cyclistic-bike-share-with-r-programming">
+                    <img src="images/pic01.jpg" alt="Cyclistic Bike-Share Project">
+                </a>
+                <h3>Cyclistic Bike-Share</h3>
+                <p>Data Cleansing, Visualization, Statistical Analysis</p>
+            </div>
+            <div class="project">
+                <a href="https://www.kaggle.com/code/fr3shk/bellabeat-with-python">
+                    <img src="images/pic02.jpg" alt="Bellabeat Project">
+                </a>
+                <h3>Bellabeat</h3>
+                <p>Data Analysis, Marketing Strategy, Python</p>
+            </div>
+            <div class="project">
+                <a href="https://github.com/Fr3shx/Driving-the-Future-of-Vehicle-Pricing-A-Machine-Learning-Approach">
+                    <img src="images/pic03.jpg" alt="Driving the Future of Vehicle Pricing Project">
+                </a>
+                <h3>Driving the Future of Vehicle Pricing</h3>
+                <p>Data Cleaning, EDA, Modeling</p>
+            </div>
+            <div class="project">
+                <a href="https://github.com/Fr3shx/NLP-With-Hotel-Review">
+                    <img src="images/pic04.jpg" alt="NLP With Hotel Review Project">
+                </a>
+                <h3>NLP With Hotel Review</h3>
+                <p>Natural Language Processing, Data Cleansing, Python</p>
+            </div>
+            <div class="project">
+                <a href="https://github.com/Fr3shx/Name_processing_audit_app-Flask-">
+                    <img src="images/pic05.jpeg" alt="CSV Product Name Standardizer Project">
+                </a>
+                <h3>CSV Product Name Standardizer</h3>
+                <p>Flask, Data Processing, Automation</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about container">
+        <h2>About Me</h2>
+        <p>
+            Hey there! I'm Robby, the data detective who's always on the case. With over 5 years in the retail e-commerce scene, I've cracked more data mysteries than Sherlock Holmes has solved crimes (probably). I didn’t take the traditional route into tech—my path was more of a scenic detour with plenty of caffeine stops.
+        </p>
+        <p>
+            My curiosity for numbers led me to dive into the world of data science, where I’m now armed with a diploma from BrainStation. I’ve got skills in data analysis, machine learning, and creating visualizations that make complex data as easy to digest as a slice of pie (but remember, we don’t use pie charts here).
+        </p>
+        <p>
+            When I’m not turning data into insights, you’ll find me dreaming up new ways to automate the mundane. I’m on the lookout for a full-time gig where I can flex my analytical muscles and help solve real-world problems. If you’re looking for someone who’s as passionate about data as a cat is about a laser pointer, I’m your person.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact container">
+        <h2>Contact</h2>
+        <p>If you have any questions or would like to connect, feel free to reach out through the platforms below.</p>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/robby-khoutsaysana" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a>
+            <a href="https://github.com/Fr3shx" class="icon brands fa-github"><span class="label">GitHub</span></a>
+            <a href="mailto:robbykh87@hotmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Robby Khoutsaysana. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
